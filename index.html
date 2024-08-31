@@ -3,202 +3,340 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amazon Clone</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Hiring Mine</title>
+    <link rel="shortcut icon" href="./favicons.webp" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="navbar">
-            <div class="nav-logo border">
-                <div class="logo"></div>
-            </div>  
 
-            <div class="nav-address border">
-                <p class="add-first">Deliver to</p>
-            <div class="add-icon">
-                <i class="fa-solid fa-location-dot"></i>   
-                <p class="add-second">Pakistan</p>
-            </div>
-        </div>
-        
-        <div class="nav-search">
-         <select class="search-select">
-            <option>All</option>
-         </select>
-         <input placeholder="Search Amazon" class="search-input">
-         <div class="search-icon">
-         <i class="fa-solid fa-magnifying-glass"></i>
-           </div>
-        </div>
-
-        <div class="nav-singin border">
-            <p><span>Hello, sign in</span></p>
-            <p class="nav-second">Account & Lists</p>  
-        </div>
-    
-      <div class="nav-return border"> 
-       <p><span>Returns</span></p>   
-        <P class="nav-second">& Orders</P>
+    <div id="nav">
+        <a id="logo" href="#"><img src="./Hiring Mine Logo-453a72d3.png" alt=""></a>
+     
+        <ul id="bar">   
+        <a href="#" style="color: lightgray;">About Us</a>
+        <a href="#" style="color: lightgray;">People</a>
+        <a href="#" style="color: black;">Jobs</a>
+        <a href="#" style="color: black;">Login</a>
+        <a href="#" style="color: lightgray;">Join Now</a>
+        <a href="#" style="padding-right: 60px;  padding-left: 15px; color: blue;">Employee / Post Job</a>
+     </ul>
     </div>
+
+<br>
+<br>
+
+<h1>
+    <strong>  Dig. Apply  </strong>
+    <br>
+    <strong>  Prepare Your  </strong>
+
+       <b>    Future  </b>
+</h1>
+
+<br>
+
+<p>
+    Hiring Mine connects employer and job seekers, where employers are the 
+    source of the <br> resources and the job seeker can find and apply for their  
+                           targeted job.
+</p>
+
+<!-- <br>
+<br>
+ -->
+
+
+<div class="search">
+<input placeholder="Search by Role or Keyword" > 
+  <img src="./UserVector-dcdef637 (2).svg" alt="">
+</div>
+
+<div class="button-border">
+<button> Find Jobs </button>
+</div>
+
+<h6>
+    <b>Popular Searches</b>
+</h6>
+
+<div class="popular-searches">
+
+    <button id="button1">
+    Software
+    </button>
+
+ <button id="button2">
+    Developer
+ </button>
+
+ <button id="button3">
+    Backend
+ </button>
+
+ <button id="button4">
+    React
+ </button>
+
+ <button id="button5">
+    Node
+ </button>
+
+ <button id="button6">
+  React Native
+ </button>
+
+ <button id="button7">
+    Flutter
+ </button>
   
-    <div class="nav-cart border">
-     <i class="fa-solid fa-cart-shopping"></i>
-     cart
-    </div>
-    </div>
+ <button id="button8">
+    UI/UX
+ </button>
 
-    <div class="panel">
-   <div class="panel-all">
-  <i class="fa-solid fa-bars"></i>    
-  All
-</div>
-<div class="panel-ops"> 
-<p>Today's Deals</p>
-<p>Customer Service</p>
-<p>Registry</p>
-<p>Gift Card</p>
-<p>Sell</p>
-</div>   
-<div class="panel-deals">
-    Shop deals in Electronics
-</div>
-</div>
-    </header>
+ <button id="button9">
+    Designer
+ </button>
+<br>
+            <br>
+           <br>
+<br>
+ <button id="button10">
+    Web
+ </button>
 
-    <div class="hero-section">
-     <div class="hero-msg">
-    <p>You are on amazon.com You can also shop on Amazon Pakistan for millions of products with fast local delivery  &nbsp;<a>Click here to go to amazon.in</a> </p> 
-    </div>
-    </div>
+ <button id="button11">
+    SEO
+ </button>
 
-<div class="shop-section">
-    <div class="box1 box">
-   <div class="box-content">
-    <h2>Clothes</h2>
-   <div class="box-img" style="background-image: url('box1_image.jpg');"></div>
-<p>See more</p>
-   </div>    
-</div>
-    <div class="box2 box">
-      <div class="box-content">  
-        <h2>Health & Personal Care</h2>
-   <div class="box-img" style="background-image: url('box2_image.jpg');"></div>
-<p>Shop now</p>
-</div>    
-</div>
-    <div class="box3 box">
-        <div class="box-content">  
-            <h2>Furniture</h2>
-       <div class="box-img" style="background-image: url('box3_image.jpg');"></div>
-    <p>Shop home products</p>
-    </div>
-    </div>
-    <div class="box">
-        <div class="box-content">  
-            <h2>Electronics</h2>
-       <div class="box-img" style="background-image: url('box4_image.jpg');"></div>
-    <p>See more</p>
-    </div>
-    </div>
-    <div class="box">
-        <div class="box-content">
-         <h2>Beauty picks</h2>
-        <div class="box-img" style="background-image: url('box5_image.jpg');"></div>
-     <p>Shop now</p>
-        </div>    
-     </div>
-         <div class="box">
-           <div class="box-content">  
-             <h2>Pet Care</h2>
-        <div class="box-img" style="background-image: url('box6_image.jpg');"></div>
-     <p>see more</p>
-     </div>    
-     </div>
-         <div class="box">
-             <div class="box-content">  
-                 <h2>New Arrival in Toys</h2>
-            <div class="box-img" style="background-image: url('box7_image.jpg');"></div>
-         <p>see more</p>
-         </div>
-         </div>
-         <div class="box">
-             <div class="box-content">  
-                 <h2>Discover Fashion Trends</h2>
-            <div class="box-img" style="background-image: url('box8_image.jpg');"></div>
-         <p>see more</p>
-         </div>
-         </div>
+ <button id="button12">
+   Marketing
+ </button>
+
+  <button id="button13">
+    Writer
+  </button>
+                                                                                                                                                                                                                                                                                                                                                                                                                                    
 </div>
 
-<footer>
-   <div class="foot-panel1">
-    Back to Top
+<img class="art-work" src="./art work-df4f7a46 (1).png" alt="">
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class="heading">
+<h3 id="h3"> 
+   Get Hired In 4
+<span class="h4"> 
+    Quick Easy Steps (Coming Soon) </span>
+</h3>
+</div>
+
+<p class="p1">
+The quickest and the most effective way to get hired by the top firm.
+</p>
+
+<br>
+<br>
+<br>
+<br>
+
+
+
+<div class="container"> 
+
+   <div class="box1">
+
+      <div class="icon1">
+      <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19 5.59473V19.5947H5V5.59473H19ZM19 3.59473H5C3.89 3.59473 3 4.49473 3 5.59473V19.5947C3 20.6947 3.89 21.5947 5 21.5947H19C20.1 21.5947 21 20.6947 21 19.5947V5.59473C21 4.49473 20.1 3.59473 19 3.59473ZM12 12.5947C10.35 12.5947 9 11.2447 9 9.59473C9 7.94473 10.35 6.59473 12 6.59473C13.65 6.59473 15 7.94473 15 9.59473C15 11.2447 13.65 12.5947 12 12.5947ZM12 8.59473C11.45 8.59473 11 9.04473 11 9.59473C11 10.1447 11.45 10.5947 12 10.5947C12.55 10.5947 13 10.1447 13 9.59473C13 9.04473 12.55 8.59473 12 8.59473ZM18 18.5947H6V17.0647C6 14.5647 9.97 13.4847 12 13.4847C14.03 13.4847 18 14.5647 18 17.0647V18.5947ZM8.31 16.5947H15.69C15 16.0347 13.31 15.4747 12 15.4747C10.69 15.4747 8.99 16.0347 8.31 16.5947Z" fill="#6851FF"></path></svg>
+      <h4> Create an Account </h4>
+      </div>
+
+      <p> Join our vibrant community. Create your <br> 
+         account and unlock boundless opportunities. </p>
    </div>
 
-<div class="foot-panel2">
-    <ul>
-       <p>Get to Know Us</p>
-       <a>Careers</a> 
-       <a>Blog</a> 
-       <a>About Amazon</a> 
-       <a>Investor Relations</a> 
-       <a>Amazon Device</a> 
-       <a>Amazon Science</a>       
-    </ul>
-    <ul>
-        <p>Make Money with Us</p>
-        <a>Sell products on Amazon</a> 
-        <a>Sell on Amazon Business</a> 
-        <a>Sell apps on Amazon</a> 
-        <a>Become an affiliate</a> 
-        <a>Advertise Your Products</a> 
-        <a>Sell-Publish with Us</a>
-        <a>Host an Amazon Hub</a>
-        <a>,See More Make Money 
-            with Us</a>       
-     </ul>
-     <ul>
-        <p>Amazon Payment Products</p>
-        <a>Amazon Business Card</a> 
-        <a>Shop with Points</a> 
-        <a>Reload Your Balance </a> 
-        <a>Amazon Currency Converter</a>       
-     </ul>
-     <ul>
-        <p>Let Us Help You</p>
-        <a>Amazon and COVID- 
-           19</a> 
-        <a>Your Account</a> 
-        <a>Your Orders</a> 
-        <a>Shipping Rates &
-           Politicles</a> 
-        <a>Returns &
-           Replacements</a> 
-        <a>Manage Your 
-           Content and Devices</a>
-        <a>Amazon Assistant</a>
-        <a>Help</a>       
-     </ul>
+   <div class="box2">
 
+      <div class="icon2">
+      <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15.7549 14.8496H14.9649L14.6849 14.5796C15.6649 13.4396 16.2549 11.9596 16.2549 10.3496C16.2549 6.75961 13.3449 3.84961 9.75488 3.84961C6.16488 3.84961 3.25488 6.75961 3.25488 10.3496C3.25488 13.9396 6.16488 16.8496 9.75488 16.8496C11.3649 16.8496 12.8449 16.2596 13.9849 15.2796L14.2549 15.5596V16.3496L19.2549 21.3396L20.7449 19.8496L15.7549 14.8496ZM9.75488 14.8496C7.26488 14.8496 5.25488 12.8396 5.25488 10.3496C5.25488 7.85961 7.26488 5.84961 9.75488 5.84961C12.2449 5.84961 14.2549 7.85961 14.2549 10.3496C14.2549 12.8396 12.2449 14.8496 9.75488 14.8496Z" fill="#6851FF"></path></svg>
+      <h4> Search a Job </h4>
+      </div>
+
+      <p> Discover your ideal job. Our intuitive search 
+           feature makes job hunting effortless.</p>
+   </div>
+
+   <div class="box3">
+      
+      <div class="icon3">
+      <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14 2.59473H6C4.9 2.59473 4.01 3.49473 4.01 4.59473L4 20.5947C4 21.6947 4.89 22.5947 5.99 22.5947H18C19.1 22.5947 20 21.6947 20 20.5947V8.59473L14 2.59473ZM18 20.5947H6V4.59473H13V9.59473H18V20.5947ZM8 15.6047L9.41 17.0147L11 15.4347V19.5947H13V15.4347L14.59 17.0247L16 15.6047L12.01 11.5947L8 15.6047Z" fill="#6851FF"></path></svg>
+      <h4> Upload CV/Resume </h4>
+      </div>
+
+      <p> Showcase your expertise. Upload your CV or 
+          resume and stand out to employers. </p>
+
+   </div>
+
+   <div class="box4">
+      
+      <div class="icon4">
+      <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 7.09473H17V5.09473C17 3.98473 16.11 3.09473 15 3.09473H9C7.89 3.09473 7 3.98473 7 5.09473V7.09473H4C2.89 7.09473 2 7.98473 2 9.09473V20.0947C2 21.2047 2.89 22.0947 4 22.0947H20C21.11 22.0947 22 21.2047 22 20.0947V9.09473C22 7.98473 21.11 7.09473 20 7.09473ZM9 5.09473H15V7.09473H9V5.09473ZM20 20.0947H4V18.0947H20V20.0947ZM20 15.0947H4V9.09473H7V11.0947H9V9.09473H15V11.0947H17V9.09473H20V15.0947Z" fill="#6851FF"></path></svg>
+      <h4> Get a Job </h4>
+      </div>
+
+      <P> Achieve your career goals. Apply for jobs 
+          and embark on your next adventure. </P>
+
+   </div>
 </div>
-<div class="foot-panel3">
-    <div class="logo"></div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<h3 class="h5">
+Find Your Dream Job 
+
+<span class="h-s"> Super Fast Ever. </span>
+</h3>
+
+ <p class="p2">We are here to help jobseekers connect with organizer and companies. We are provides <br> 
+   the best opportunities to professional people.</p> 
+
+   <img src="./banner_career-4b7d86fb.webp" alt="" style="padding-left: 250px;">
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<h3 class="h6">
+   Countless Career Options
+
+   <span class="h-2">
+      Are Waiting For You To <br>
+      Explore
+   </span>
+</h3>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<h3 class="h7"> Latest And Top 
+   
+<span class="h-3"> 
+   Job Openings </span>
+</h3>
+<br>
+
+<img class="1fram" src="./Frame-55f66875.png" alt="" srcset="">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class="panel">
+ 
+ <div class="logo">
+   <img src="./download (2).png" alt="">
+</div>
+
+<div class="content">
+   <br>
+       HiringMine connects employer and job seekers,  <br>  
+       where employers are the source of the resources  <br>
+       and the job seeker can find and apply for their  <br>
+       targeted job. 
+   </div>
+<br>
+<br>
+<br>
+<br>
+   <h4 class="h-4"> Follow us </h4>
+   
+
+ <div class="social">  
+   <ul>
+      <li> Contact Us </li>
+      <li><svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13.6666 1.99984C13.6666 1.2665 13.0666 0.666504 12.3333 0.666504H1.66659C0.933252 0.666504 0.333252 1.2665 0.333252 1.99984V9.99984C0.333252 10.7332 0.933252 11.3332 1.66659 11.3332H12.3333C13.0666 11.3332 13.6666 10.7332 13.6666 9.99984V1.99984ZM12.3333 1.99984L6.99992 5.33317L1.66659 
+      1.99984H12.3333ZM12.3333 9.99984H1.66659V3.33317L6.99992 6.6665L12.3333 3.33317V9.99984Z" fill="white">
+      </path></svg>
+      <a href="mailto:portal.hiringmine@gmail.com">portal.hiringmine@gmail.com</a>
+   </li>
+   </ul>
  </div>
 
-<div class="foot-panel4">
-  <div class="pages">
-    <a>Conditions of Use</a>
-    <a>Privacy Notice</a>  
-    <a>Your Ads Privacy Choices</a>   
-</div>
-<div class="copyright">
-    o 1996-2023, Amazon.com, Inc. or its affiliates
-</div>
+ <div class="media">
+   <a class="a1" href="https://www.facebook.com/HiringMine" target="_blank"> <link class="img1" rel="icon" type="image/x-icon" href="./facebook-logo.png"> </a>
+   
+   <a class="a2" href="https://chat.whatsapp.com/BT2IHPvxw2gITPw4gvIMQU" target="_blank"><link class="img1" rel="icon" type="image/x-icon" href="."> </a>   
 
 
 </div>
-</footer>
+
+ <hr>
+
+ <a class="a-h" href="." >Privacy Policy </a> <a  class="a-h2" href=".">Terms and Condition</a>
+
+ <br>
+<br>
+<br>
+
+   <div class="copy"> copyright Hiringmine 2024. All Rights Reserved </div>
+</div>
 
 </body>
 </html>
